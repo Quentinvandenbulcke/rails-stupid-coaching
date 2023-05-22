@@ -1,0 +1,14 @@
+<div class="container">
+  <h1 class = "p-3 m-3">Stupid Coaching</h1>
+  <div class="p-3 m-3 bg-light w-50 border-start border-5">
+    <%= @question %>
+    <p class="fw-bold">- Your question</p>
+  </div>
+  <div class="p-3 m-3 bg-warning bg-opacity-25 w-50 border-start border-5">
+    <%= @answer %>
+    <p class="fw-bold">- Your coach</p>
+  </div>
+  <div class="btn">
+    <%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+  </div>
+</div>
